@@ -1,0 +1,68 @@
+.vacation-requests-container {
+  padding: 20px;
+}
+
+.vacation-card {
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vacation-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.stat-icon {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+.decline-btn {
+  background-color: transparent;
+  color: #2E7D32;
+  border: 2px solid #2E7D32;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approve-btn {
+  display: inline-block;
+  border: none;
+  padding: 6px 20px;
+  font-size: 15px;
+  color: white;
+  border-radius: 8px;
+  background-color: #2E7D32;
+  cursor: pointer;
+}
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px 40px 10px 40px; /* Adds space for the icon */
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box; /* Makes sure padding doesn't affect width */
+}
+
+.search-container i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 16px;
+}
+
+.highlight {
+  background-color: #2E7D32;
+}
